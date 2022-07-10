@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(2, 34, 34);
+    width: 75%;
+    margin: 3em auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.header{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+.attributes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wpm,.cpm,.errors,.time,.accuracy{
+    background-color: rgb(129, 216, 168);
+    width: 6em;
+    height: 6em;
+    margin-top: 1em;
+    color: black;
+    border-radius: 30%;
+    box-shadow: 0 0 30px rgb(113, 187, 84);
+}
+
+.wpm p:nth-child(2),.cpm p:nth-child(2),.errors p:nth-child(2),.time p:nth-child(2),.accuracy p:nth-child(2){
+    font-weight: bolder;
+    font-size: 2em;
+    margin: 0;
+}
+
+.cpm,.wpm{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+
+.paragraph{
+    width: 70%;
+    margin: 2em auto;
+    background-color: rgb(218, 211, 115);
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.input{
+    width: 70%;
+    height: 3em;
+    margin: 1em auto;
+    background-color: rgb(219, 195, 219);
+    padding: 5px;
+    font-size: large;
+}
+
+.restart{
+    width: 8em;
+    height: 3em;
+    margin: 1em auto;
+    background-color: chocolate;
+    border-radius: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
